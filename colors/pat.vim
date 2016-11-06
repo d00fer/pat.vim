@@ -19,7 +19,7 @@ hi Type       cterm=NONE ctermfg=LightGray
 hi Special    cterm=NONE ctermfg=LightGray
 hi Delimiter  cterm=NONE ctermfg=LightGray
 hi String     cterm=NONE ctermfg=202
-hi LineNr     cterm=NONE ctermfg=gray
+hi LineNr     cterm=NONE ctermfg=202
 hi MatchParen cterm=NONE ctermfg=red ctermbg=NONE
 hi CursorLine cterm=NONE ctermbg=gray
 hi EndOfBuffer ctermfg=gray
