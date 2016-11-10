@@ -18,10 +18,14 @@ hi PreProc    cterm=NONE ctermfg=LightGray
 hi Type       cterm=NONE ctermfg=LightGray
 hi Special    cterm=NONE ctermfg=LightGray
 hi Delimiter  cterm=NONE ctermfg=LightGray
-hi String     cterm=NONE ctermfg=202
-hi LineNr     cterm=NONE ctermfg=202
+hi String     cterm=NONE ctermfg=006
+hi LineNr     cterm=NONE ctermfg=202 ctermbg=NONE
 hi MatchParen cterm=NONE ctermfg=red ctermbg=NONE
-hi CursorLine cterm=NONE ctermbg=gray
+hi CursorLine cterm=bold ctermbg=015 ctermfg=234
+hi CursorColumn cterm=NONE ctermbg=006 ctermfg=NONE
+hi Visual cterm=NONE ctermbg=015 ctermfg=NONE
 hi EndOfBuffer ctermfg=gray
 hi Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
 hi StatusLine ctermbg=15 ctermfg=8 
+hi VertSplit ctermbg=NONE guibg=NONE cterm=NONE
+"hi Directory ctermfg=202 
