@@ -5,9 +5,9 @@ if exists("syntax_on")
 endif
 
 let colors_name = "pat"
-
+"to see highlight groups type so $VIMRUNTIME/syntax/hitest.vim
 hi Normal       ctermfg=LightGray ctermbg=None guifg=#dddddd    guibg=Black
-hi Comment      cterm=NONE ctermfg=DarkGray
+hi Comment      cterm=NONE ctermfg=37
 hi Constant     cterm=NONE ctermfg=LightGray
 hi Identifier   cterm=NONE ctermfg=LightGray
 hi Function     cterm=NONE ctermfg=LightGray
@@ -16,9 +16,9 @@ hi PreProc      cterm=NONE ctermfg=LightGray
 hi Type         cterm=NONE ctermfg=LightGray
 hi Special      cterm=NONE ctermfg=LightGray
 hi Delimiter    cterm=NONE ctermfg=LightGray
-hi String       cterm=NONE ctermfg=006
-hi LineNr       cterm=NONE ctermfg=DarkGray ctermbg=NONE
-hi MatchParen   cterm=NONE ctermfg=red ctermbg=NONE
+hi String       cterm=NONE ctermfg=LightGray
+hi LineNr       cterm=NONE ctermfg=8 ctermbg=NONE
+hi MatchParen   cterm=NONE ctermfg=6 ctermbg=NONE
 hi CursorLine   cterm=bold ctermbg=015 ctermfg=234
 hi CursorColumn cterm=NONE ctermbg=006 ctermfg=NONE
 hi Visual       cterm=NONE ctermbg=015 ctermfg=NONE
